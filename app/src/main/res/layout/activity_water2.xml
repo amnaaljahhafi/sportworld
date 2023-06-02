@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ss"
+    tools:context=".waterActivity2">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Water is the basic component of the human body, as it constitutes an amount ranging from 50 to 70% of the human weight, (depending on the size of the body)
+Therefore, adequate and regular consumption of water has many health benefits. The amount of water that a person drinks daily plays an important role in maintaining the health of the body. Therefore, nutrition experts recommend drinking 8 to 10 glasses of water every day to maintain good health. Water also helps to maintain moisture. The body consumes a lot, which is essential because most of the body's cells need water to function properly."
+
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+         />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/img_5" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:id="@+id/button4011"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        android:layout_marginEnd="120dp"
+        android:layout_marginStart="120dp"/>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ss"
+    tools:context=".healthyfoodActivity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctors, ordinary people, mothers, and nutritionists usually repeat the word healthy eating, and this phrase always comes to mind when we eat our food. Healthy eating is a varied diet that contains whole food groups, including water, carbohydrates, proteins, vitamins, fats, and minerals. Because the body needs all these groups, and it is necessary to diversify its dietary patterns in order for its food to become healthy, especially since adherence to healthy food means that the health of the body is better.It boosts the body's immunity and increases its resistance to infections, viral, bacterial and fungal infections. It prevents many diseases, such as heart disease, blood vessels, diabetes, high blood pressure, gout, cancer, gland diseases, anemia, and many other diseases. "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/img_4" />
+
+    <Button
+        android:id="@+id/button111"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="130dp"
+        android:backgroundTint="@color/black"
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+
+</LinearLayout>

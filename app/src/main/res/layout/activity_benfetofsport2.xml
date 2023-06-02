@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ss"
+    tools:context=".benfetofsportActivity2">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="
+reduced risk of obesity. increased cardiovascular fitness. healthy growth of bones, muscles, ligaments and tendons. improved coordination and balance.Making the body perfect, harmonious, healthy, and healthy, as it strengthens it and fights obesity. Protecting people from many diseases, including obesity, which is a cause of other diseases, such as herniated disc, diabetes, and high blood pressure. Strengthening the muscles of the body, improving the appearance of the body, which increases its beauty and attractiveness."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/img_1"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="130dp"
+        android:backgroundTint="@color/black"
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+</LinearLayout>

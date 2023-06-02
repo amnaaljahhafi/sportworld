@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ss"
+    tools:context=".caloriesActivity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calories are the units in which energy is measured, similar to how we talk about grams of fat or milliliters of water. When we talk about how many calories are in food or how many calories we burn during exercise, it means the amount of energy that food contains or that we consume Calorie counting is mainly used as a way of losing weight. You estimate your energy requirement (either based on the average or with one of the online tools that can help you do this more accurately) and then decide how many calories less than this you will consume. This creates an energy or calorie deficit. "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+<ImageView
+android:id="@+id/imageView2"
+android:layout_width="match_parent"
+android:layout_height="110dp"
+app:srcCompat="@drawable/img_11" />
+
+<Button
+android:id="@+id/button1114"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginStart="100dp"
+android:layout_marginTop="10dp"
+android:layout_marginEnd="130dp"
+android:backgroundTint="@color/black"
+android:text="Back"
+android:textColor="@color/white"
+android:textSize="20dp"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="1.0" />
+
+</LinearLayout>
